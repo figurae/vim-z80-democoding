@@ -152,16 +152,16 @@ else
 command -nargs=+ HiLink hi def link <args>
 endif
 
-HiLink z80Reg Constant
-HiLink z80Lbl Type
+HiLink z80Reg DiagnosticInfo
+HiLink z80Lbl Conditional
 HiLink z80Lbl2 Type
 HiLink z80Lbl3 Type
 HiLink z80Comment Comment
 HiLink z80Comment2 Comment
 HiLink z80Inst Statement
 HiLink z80Include Include
-HiLink z80PreProc PreProc
-HiLink z80Number Number
+HiLink z80PreProc StorageClass
+HiLink z80Number Boolean
 HiLink z80String String
 HiLink z80Other Operator
 HiLink z80Todo Todo
